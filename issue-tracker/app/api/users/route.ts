@@ -8,3 +8,5 @@ export async function GET(request: NextRequest) {
 
   return NextResponse.json(users);
 }
+
+export const dynamic = "force-dynamic";
